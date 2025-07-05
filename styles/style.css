@@ -36,6 +36,10 @@ font-size: 15px;
 font-weight: 600;
 padding: 15px;
 }
+.qq{
+    text-decoration: none;
+    color: inherit;
+}
 .banner-container{
     width: 1440px;
 height: 652px;
@@ -474,4 +478,33 @@ font-size: 20px;
 font-weight: 600;
 line-height: 23px;
 border-style: none;
+}
+.footer-section{
+    /* border: 2px solid red; */
+height: 90px;
+margin: 0 auto;
+margin-top: 80px;
+padding: 32px 150px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+    width: 1140px;
+height: 36px;
+    /* border: 2px solid forestgreen; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-container h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+}
+.footer-image{
+    
+    margin-right:25px;
 }
